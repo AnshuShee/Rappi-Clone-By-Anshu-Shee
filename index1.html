@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rappi Home</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsNCx6ZgCkZd2NAkMSZZ1b0gBZe1tYkdCiRg&s" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+  <header class="navbar">
+    <div class="nav-left">
+      <button class="nav-menu"><i class="fas fa-bars"></i></button>
+      <img class="nav-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Rappi_logo.svg/2560px-Rappi_logo.svg.png" alt="Rappi Logo">
+      <div class="nav-location">
+        <i class="fas fa-map-marker-alt nav-location-icon"></i>
+        Mexico City
+        <span class="nav-location-dropdown"><i class="fas fa-chevron-down"></i></span>
+      </div>
+      <div class="nav-search-wrap">
+        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 512 512"><path fill="#ff5f01" d="M55.156 248.581c1.436-7.967-2.535-15.098-10.912-14.423c-11.363.917-19.27 24.568 4.904 32.438c19.818 6.453 34.247-8.485 57.08-31.534c51.017-51.5 112.62-56.495 150.188-4.506c15.484-28.493 76.52-75.99 169.716 22.532c34.236 36.192 64.826 2.156 48.067-16.523c-7.624-8.497-22.525 3.369-15.021 12.016h-1.503c-34.978-31.02 38.085-60.006 52.563-7.51c14.96 79.017-68.393 91.862-135.167 63.077c-129.057-64.588-130.434-47.237-255.335 6.009c-38.332 15.713-85.277 6.735-104.227-11.434c-22.507-21.578-21.115-72.856 8.103-83.188c29.82-11.962 55.048 13.647 31.544 33.046"/></svg>
+        <input class="nav-search" type="text" placeholder="Food, restaurants, shops, products,...">
+        <button class="nav-search-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="#585858" d="M15.5 14h-.79l-.28-.27A6.47 6.47 0 0 0 16 9.5A6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5S14 7.01 14 9.5S11.99 14 9.5 14"/></svg>
+        </button>
+      </div>
+    </div>
+    <div class="nav-right">
+      <a href="#" class="nav-profile">
+        <i class="fas fa-user nav-profile-icon"></i>Income
+      </a>
+      <button class="nav-cart"><i class="fas fa-shopping-cart"></i></button>
+    </div>
+  </header>
+  
+  <div class="main-wrap">
+    <div class="headline">
+      If you have <span class="bold">Rappi</span><span class="comma">,</span> you have everything.
+    </div>
+    <div class="search-card">
+      <i class="fas fa-map-marker-alt search-icon"></i>
+      <input class="search-input" type="text" placeholder="Where would you like to receive your purchase?">
+    </div>
+    <div class="sub-links">
+      <a class="loc-btn" href="#">
+        <i class="fas fa-location-crosshairs loc-btn-icon"></i>
+        Use your current location
+      </a>
+      <span>
+        <a class="login-link" href="login.html">Log in</a>
+        <span style="color:#fff;font-size:15px;">to see your directionsrecent</span>
+      </span>
+    </div>
+  </div>
+  
+  <div class="main-section">
+    <h2>Do you need anything else?</h2>
+    <div class="categories-wrap">
+      <div class="cat-card cat-rest">
+        <div class="cat-img">
+          <img src="restaurants.png" alt="Restaurants" style="width:90px;height:90px;object-fit:contain;">
+        </div>
+        <div class="cat-label" style="background: rgba(255, 230, 230, 0.7);">Restaurants</div>
+      </div>
+      <div class="cat-card cat-super">
+        <div class="cat-img">
+          <img src="super.png" alt="Super" style="width:90px;height:90px;object-fit:contain;">
+        </div>
+        <div class="cat-label" style="background: #e4faee;">Super</div>
+      </div>
+    </div>
+    <div class="services-row">
+      <div class="svc"><div class="svc-img"><img src="https://images.rappi.com.mx/home-ab-objects/1731501759.png?e=webp&d=150x150&q=50" alt="Pharmacy" style="width:100px;height:100px;"></div><div class="svc-name">Pharmacy</div></div>
+      <div class="svc"><div class="svc-img"><img src="https://images.rappi.com.mx/home-ab-objects/1731625449.png?e=webp&d=150x150&q=50" alt="Express" style="width:100px;height:100px;"></div><div class="svc-name">Express</div></div>
+      <div class="svc"><div class="svc-img"><img src="https://images.rappi.com.mx/home-ab-objects/1731501374.png?e=webp&d=150x150&q=50" alt="Stores" style="width:100px;height:100px;"></div><div class="svc-name">Stores</div></div>
+      <div class="svc"><div class="svc-img"><img src="https://images.rappi.com.mx/home-ab-objects/turbo_r8_offer.png?e=webp&d=150x150&q=50" alt="Turbo" style="width:100px;height:100px;"></div><div class="svc-name">Turbo</div></div>
+      <div class="svc"><div class="svc-img"><img src="https://images.rappi.com.mx/home-ab-objects/1731501678.png?e=webp&d=150x150&q=50" alt="Liquors" style="width:100px;height:100px;"></div><div class="svc-name">Liquors</div></div>
+      <div class="svc"><div class="svc-img"><img src="https://images.rappi.com.mx/home-ab-objects/rappi-travel-1616010897.png?e=webp&d=150x150&q=50" alt="Travel" style="width:100px;height:100px;"></div><div class="svc-name">Rappi Travel</div></div>
+      <div class="svc"><div class="svc-img"><img src="https://www.rappi.com.mx/rappi_card.webp?e=webp&d=150x150&q=50" alt="Card" style="width:100px;height:100px;"></div><div class="svc-name">RappiCard</div></div>
+      <div class="svc-scroll-arrows">
+        <span class="svc-arrow"><i class="fas fa-chevron-left"></i></span>
+        <span class="svc-arrow"><i class="fas fa-chevron-right"></i></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="search-chosen-section">
+  <div class="searched-title">Most searched</div>
+  <div class="searched-pills">
+    <span class="pill">Halloween</span>
+    <span class="pill">Sweets</span>
+    <span class="pill">Costume</span>
+    <span class="pill">Snack</span>
+    <span class="pill">Pizza</span>
+    <span class="pill">Sushi</span>
+    <span class="pill">Tacos</span>
+    <span class="pill">Subway</span>
+    <span class="pill">Little Caesars Pizza</span>
+    <span class="pill">Cake</span>
+  </div>
+  <div class="chosen-title">The 10 most chosen!</div>
+  <div class="chosen-row">
+ 
+    <div class="brand-card">
+      <img src="https://images.rappi.com.mx/restaurants_logo/home1-1673726754542.png?e=webp&d=100x100&q=80" alt="Little Caesars" />
+      <div class="brand-label">Little Caesars</div>
+    </div>
+    <div class="brand-card">
+      <img src="https://images.rappi.com.mx/restaurants_logo/carlsjr-logo-1613083695901.png?e=webp&d=100x100&q=80" alt="Carl's Jr." />
+      <div class="brand-label">Carl's Jr.</div>
+    </div>
+    <div class="brand-card">
+      <img src="https://images.rappi.com.mx/restaurants_logo/download-2-1571350901710.png?e=webp&d=100x100&q=80" alt="McDonald's" />
+      <div class="brand-label">McDonald's</div>
+    </div>
+    <div class="brand-card">
+      <img src="https://images.rappi.com.mx/restaurants_logo/burgerking-2021-logo-1610647039909-1628886280432.png?e=webp&d=100x100&q=80" alt="Burger King" />
+      <div class="brand-label">Burger King</div>
+    </div>
+    <div class="brand-card">
+      <img src="https://images.rappi.com.mx/restaurants_logo/burgerking-2021-logo-1610647039909-1628886280432.png?e=webp&d=100x100&q=80" alt="Starbucks" />
+      <div class="brand-label">Starbucks</div>
+    </div>
+    <div class="brand-card">
+      <img src="https://images.rappi.com.mx/restaurants_logo/kfc-logo1-1569264426304-1595457904756.png?e=webp&d=100x100&q=80" alt="KFC" />
+      <div class="brand-label">KFC</div>
+    </div>
+    <div class="brand-card">
+      <img src="https://images.rappi.com.mx/restaurants_logo/1306707738-1539119711.png?e=webp&d=100x100&q=80" alt="Subway" />
+      <div class="brand-label">Subway</div>
+    </div>
+    <div class="brand-card">
+      <img src="https://images.rappi.com.mx/restaurants_logo/1306711004-1552517364.png?e=webp&d=100x100&q=80" alt="Cinepolis" />
+      <div class="brand-label">Traditional Cinépolis</div>
+    </div>
+    <div class="brand-card">
+      <img src="https://images.rappi.com.mx/restaurants_logo/logo-hut-1643323515417-1643409296895.png?e=webp&d=100x100&q=80" alt="Pizza Hut" />
+      <div class="brand-label">Pizza Hut</div>
+    </div>
+    <div class="brand-card">
+      <img src="https://images.rappi.com.mx/restaurants_logo/dairy-queen-logo11-1567036336390-1581629779149-1600177303380.png?e=webp&d=100x100&q=80" alt="Dairy Queen" />
+      <div class="brand-label">Dairy Queen</div>
+    </div>
+  </div>
+</div>
+
+<div class="join-rappi-section">
+  <div class="join-title">
+    Join <span class="rappi-orange">Rappi</span>
+  </div>
+  <div class="join-cards">
+  
+    <div class="join-card">
+      <img src="https://images.rappi.com/cms-web/images/rappi-rest_0e19b56e8f.png?e=webp&d=400x200&q=80" alt="Register your restaurant" class="join-img">
+      <div class="join-card-content">
+        <div class="join-card-title">Register your restaurant</div>
+        <div class="join-card-desc">
+          Discover the benefits of the 40,000+ partners in 9 countries that already work with Rappi.
+        </div>
+        <a href="#" class="join-btn join-btn-green">Learn more</a>
+      </div>
+    </div>
+    
+    <div class="join-card">
+      <img src="https://images.rappi.com/cms-web/images/join_4f83d0801b.png?e=webp&d=400x200&q=80" alt="Register your business" class="join-img">
+      <div class="join-card-content">
+        <div class="join-card-title">Register your business</div>
+        <div class="join-card-desc">
+          Access millions of Rappi users and enjoy immediate logistics without leaving your store.
+        </div>
+        <a href="#" class="join-btn join-btn-lightgreen">Learn more</a>
+      </div>
+    </div>
+   
+    <div class="join-card">
+      <img src="https://images.rappi.com/cms-web/images/rappi-rt_eb3b8152a6.png?e=webp&d=400x200&q=80" alt="Delivery driver" class="join-img">
+      <div class="join-card-content">
+        <div class="join-card-title">Join us as a delivery driver!</div>
+        <div class="join-card-desc">
+          Earn extra money delivering orders; we have the best rates and benefits.
+        </div>
+        <a href="#" class="join-btn join-btn-mint">Register now!</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="footer-section">
+  <div class="footer-links">
+    <div class="footer-col">
+      <div class="footer-heading">Top Restaurant Brands and Chains</div>
+      <div class="footer-cols-row">
+        <ul>
+          <li>Restaurant Chains</li>
+          <li>Little Caesars</li>
+          <li>Carl's Jr.</li>
+          <li>Chubby and beautiful</li>
+          <li>Hooters</li>
+          <li>Don Asado</li>
+          <li>Ihop</li>
+          <li>Dairy Queen</li>
+          <li>McDonald's</li>
+          <li>Happy Chicken</li>
+          <li>Wings Army</li>
+        </ul>
+        <ul>
+          <li>Store Chains</li>
+          <li>Subway</li>
+          <li>Buffalo Wild Wings</li>
+          <li>Mexican snacks</li>
+          <li>Chapultepec Brewery</li>
+          <li>Tony's House</li>
+          <li>KFC</li>
+          <li>Starbucks</li>
+          <li>Esperanza Pastry Shops</li>
+          <li>The Wings</li>
+          <li>Burger King</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-col">
+      <div class="footer-heading">Find us in these countries</div>
+      <div class="footer-cols-row">
+        <ul>
+          <li>Argentina</li>
+          <li>Chile</li>
+          <li>Costa Rica</li>
+          <li>Mexico</li>
+          <li>Uruguay</li>
+        </ul>
+        <ul>
+          <li>Brazil</li>
+          <li>Colombia</li>
+          <li>Ecuador</li>
+          <li>Peru</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-col">
+      <div class="footer-heading">Order your favorite food near you</div>
+      <div class="footer-cols-row">
+        <ul>
+          <li>Hamburgers near me</li>
+          <li>Sushi near me</li>
+          <li>Tacos near me</li>
+          <li>Cafes near me</li>
+          <li>Food Delivery</li>
+          <li>Pastry and Bakery near me</li>
+        </ul>
+        <ul>
+          <li>Pizza near me</li>
+          <li>Desserts near me</li>
+          <li>Chicken near me</li>
+          <li>Mexican food near me</li>
+          <li>Healthy food near me</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-subgrid">
+    <div class="footer-subcol">
+      <div class="footer-heading">Categories</div>
+      <ul>
+        <li>Product Catalog</li>
+        <li>Restaurants</li>
+        <li>Pharmacy near me</li>
+        <li>Shops near me</li>
+        <li>Rappi Travel</li>
+        <li>Promotions and Offers</li>
+        <li>Super close to me</li>
+        <li>Express near me</li>
+        <li>Liquor stores near me</li>
+        <li>Turbo Fresh</li>
+      </ul>
+    </div>
+    <div class="footer-subcol">
+      <div class="footer-heading">Join Rappi</div>
+      <ul>
+        <li>Register your restaurant</li>
+        <li>Register your store</li>
+        <li>I want to be a Rappi delivery driver</li>
+        <li>Increase your sales with Order through Rappi</li>
+        <li>Work with us</li>
+        <li>Available positions</li>
+        <li>Grow your brand</li>
+      </ul>
+    </div>
+    <div class="footer-subcol">
+      <div class="footer-heading">About Rappi</div>
+      <ul>
+        <li>Blog</li>
+        <li>Rappi Card</li>
+        <li>Data Processing</li>
+        <li>Terms and Conditions</li>
+        <li>Privacy Policies</li>
+        <li>Contact</li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-social">
+    <a href="#"><i class="fab fa-facebook-f"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+  </div>
+  <!-- <div class="footer-promo-row">
+    <div class="footer-promo-box">
+      <span> <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24"><path fill="#fff" d="M20.04 8.71V4h-4.7L12 .69L8.71 4H4v4.71L.69 12L4 15.34v4.7h4.71L12 23.35l3.34-3.31h4.7v-4.7L23.35 12zM8.83 7.05c.98 0 1.77.79 1.77 1.78a1.77 1.77 0 0 1-1.77 1.77c-.99 0-1.78-.79-1.78-1.77c0-.99.79-1.78 1.78-1.78M15.22 17c-.98 0-1.77-.8-1.77-1.78a1.77 1.77 0 0 1 1.77-1.77c.98 0 1.78.79 1.78 1.77A1.78 1.78 0 0 1 15.22 17m-6.72.03L7 15.53L15.53 7l1.5 1.5z"/></svg> Discover the <b>PROMOTIONS</b> that we have for you</span>
+    </div>
+  </div> -->
+  
+  <div class="footer-apps-row">
+    <a class="footer-app-btn" href="#"> <i class="fab fa-apple"></i> App Store </a>
+    <a class="footer-app-btn" href="#"> <i class="fab fa-google-play"></i> Google Play </a>
+    <a class="footer-app-btn" href="#"> <i class="fas fa-store"></i> AppGallery </a>
+  </div>
+  <div class="footer-copy">&copy; 2025 Rappi Inc. All rights reserved.</div>
+</footer>
+</body>
+</html>
